@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f456d67d96e426fb0a0434959ec6c34" Name="Diagram1">
+        <EntityTypeShape EntityType="FaculityModel.AboutUs" Width="1.5" PointX="6.125" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FaculityModel.Department" Width="1.5" PointX="4.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FaculityModel.Student" Width="1.5" PointX="1.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FaculityModel.sysdiagrams" Width="1.5" PointX="4" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FaculityModel.websiteDescription" Width="1.5" PointX="1.875" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="FaculityModel.FK_Student_Department" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

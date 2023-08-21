@@ -1,0 +1,19 @@
+﻿@using firstWebProject.Models;
+
+@model websiteDescription
+
+
+<div class="container">
+    <div class="row justify-content-center">
+       <div  class="col-md-6 col-lg-4 mb-5">
+            <div>             
+                <h1>@Model.Title</h1>
+                <h3>@Model.Description</h3>
+            </div>
+   
+         <img style="height:400px ; margin: 20px" src="~/assets/fcis/@Model.Image" />
+        
+        </div>
+
+    </div>
+</div>
